@@ -58,15 +58,21 @@ namespace lineComparison_Day3
             Console.WriteLine("The length of line 2 is: " + length1);
             Console.WriteLine();
 
-            if (length == length1)                    // if statement for comparision
+            if (length == length1)                    // if statement for comparision bwtween the two lines
             {
                 Console.WriteLine("Both the lines are equal");
             }
+            else if (length > length1)
+            {
+                Console.WriteLine("Line 1 is greater than line 2");
+            }
             else
             {
-                Console.WriteLine("The lines aren't equal");
+                Console.WriteLine("Line 2 is greater than line 1 ");
             }
-
         }
+
+
+
     }
 }
